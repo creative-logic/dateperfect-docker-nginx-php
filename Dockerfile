@@ -41,5 +41,4 @@ RUN npm install -g bower -y
 RUN npm install -g grunt
 RUN npm install -g grunt-cli
 
-#ENTRYPOINT service nginx restart && bash 
 EXPOSE 80 
