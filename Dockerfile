@@ -40,7 +40,6 @@ RUN apt-get update
 RUN npm install -g bower -y
 RUN npm install -g grunt
 RUN npm install -g grunt-cli
-RUN groupadd -r dateadmin && useradd -r -g dateadmin dateadmin
 
 #ENTRYPOINT service nginx restart && bash 
 EXPOSE 80 
